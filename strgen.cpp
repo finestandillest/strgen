@@ -235,7 +235,7 @@ int main() {
     }
    }
   } else if (l == "c") {
-   std::cout << "Where it may be applicable: Copyright (c) 2024 FinestandIllest. FinestandIllest grants to all, without discrimination of any sort, the inalienable and irrevocable rights to, for any purpose, for any reason, and in any manner, without limitation of any sort, use, copy, adapt, modify, display, perform, translate, distribute, and do anything to or with this work, in and all of its forms, original, compiled, translated, printed, written, typed, displayed, performed, or otherwise. FinestandIllest cannot, under any circumstance, revoke these rights or otherwise cause anyone to not have these rights. These rights are granted by FinestandIllest under zero conditions.\n";
+   std::cout << "Where it may be applicable: Copyright (c) 2024 FinestandIllest. FinestandIllest grants to all, without discrimination of any sort, the inalienable and irrevocable rights to, for any purpose, for any reason, and in any manner, without limitation of any sort, use, copy, adapt, modify, display, perform, translate, distribute, and do anything to or with this work, in any and all of its forms, original, compiled, translated, printed, written, typed, displayed, performed, or otherwise. FinestandIllest cannot, under any circumstance, revoke these rights or otherwise cause anyone to not have these rights. These rights are granted by FinestandIllest under zero conditions.\n";
    std::cout << "Enter 's' to save this copyright information as a .txt file, or enter anything else not to.\n";
    std::string o;
    std::getline(std::cin, o);
@@ -250,7 +250,7 @@ int main() {
     }
     std::ofstream f(fn);
     if (f.is_open()) {
-     f << "Where it may be applicable: Copyright (c) 2024 FinestandIllest. FinestandIllest grants to all, without discrimination of any sort, the inalienable and irrevocable rights to, for any purpose, for any reason, and in any manner, without limitation of any sort, use, copy, adapt, modify, display, perform, translate, distribute, and do anything to or with this work, in and all of its forms, original, compiled, translated, printed, written, typed, displayed, performed, or otherwise. FinestandIllest cannot, under any circumstance, revoke these rights or otherwise cause anyone to not have these rights. These rights are granted by FinestandIllest under zero conditions.";
+     f << "Where it may be applicable: Copyright (c) 2024 FinestandIllest. FinestandIllest grants to all, without discrimination of any sort, the inalienable and irrevocable rights to, for any purpose, for any reason, and in any manner, without limitation of any sort, use, copy, adapt, modify, display, perform, translate, distribute, and do anything to or with this work, in any and all of its forms, original, compiled, translated, printed, written, typed, displayed, performed, or otherwise. FinestandIllest cannot, under any circumstance, revoke these rights or otherwise cause anyone to not have these rights. These rights are granted by FinestandIllest under zero conditions.";
      std::cout << "Saved text file as " << fn << ".\n";
     } else {
      std::cerr << "Failed to open file.\n";
