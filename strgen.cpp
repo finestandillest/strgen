@@ -128,6 +128,7 @@ int main() {
    f.close();
    fn.clear();
    n = 0;
+   continue;
   } else if (l == "st") {
    std::string o;
    if (!std::filesystem::exists("strgenset.txt")) {
@@ -145,6 +146,9 @@ int main() {
       std::cerr << "Failed to open file.\n";
      }
      stg.close();
+     continue;
+    } else {
+     continue;
     }
    } else {
     std::cout << "Enter 'v' to view your settings, or 'r' to refresh your settings.\n";
@@ -161,6 +165,7 @@ int main() {
       std::cerr << "Failed to open strgenset.txt.\n";
      }
      stg.close();
+     continue;
     } else if (o == "r") {
      c.clear();
      std::ifstream stg("strgenset.txt");
@@ -235,6 +240,7 @@ int main() {
       c = mn + mj + dg + sm;
      }
      std::cout << "Characters allowed to be generated: " << c << "\n";
+     continue;
     }
    }
   } else if (l == "license") {
@@ -261,6 +267,9 @@ int main() {
     f.close();
     fn.clear();
     n = 0;
+    continue;
+   } else {
+    continue;
    }
   } else if (l == "readme") {
    std::cout << readme << "\n";
@@ -286,6 +295,9 @@ int main() {
     f.close();
     fn.clear();
     n = 0;
+    continue;
+   } else {
+    continue;
    }
   }else if (l == "q") {
    std::cout << "Quitting strgen.\n";
@@ -314,6 +326,9 @@ int main() {
     f.close();
     fn.clear();
     n = 0;
+    continue;
+   } else {
+    continue;
    }
   } else {
    if (std::all_of(l.begin(), l.end(), ::isdigit)) {
@@ -329,14 +344,18 @@ int main() {
       }
       std::cout << "\n";
       ln = 0;
+      continue;
      } else {
       std::cout << "Invalid input.\n";
+      continue;
      }
     } catch (const std::exception&) {
      std::cout << "Invalid input.\n";
+     continue;
     }
    } else {
     std::cout << "Invalid input.\n";
+    continue;
    }
   }
  }
