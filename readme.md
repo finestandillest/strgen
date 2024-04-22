@@ -1,6 +1,6 @@
 [//]: # (Where it may be applicable: Copyright (c) 2024 FinestandIllest. FinestandIllest grants to all, without discrimination of any sort, the inalienable and irrevocable rights to, for any purpose, for any reason, and in any manner, without limitation of any sort, use, copy, adapt, modify, display, perform, translate, distribute, and do anything to or with this work, in any and all of its forms, original, compiled, translated, printed, written, typed, displayed, performed, or otherwise. FinestandIllest cannot, under any circumstance, revoke these rights or otherwise cause anyone to not have these rights. These rights are granted by FinestandIllest under zero conditions. This work is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall FinestandIllest be liable for any claim, damages, or other liability, whether in an action of contract, tort or otherwise, arising from, out of, or in connection with this work or the use or other dealings in this work.)
 
-# ![strgen](strgen.svg) strgen, Strings That're Randomly Generated Easily, Niftily
+# ![strgen](strgenlogo.svg) strgen, Strings That're Randomly Generated Easily, Niftily
 
 ## Brief Description of strgen
 
